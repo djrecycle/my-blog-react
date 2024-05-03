@@ -6,6 +6,9 @@ import { createRequire } from "node:module";
 const require = createRequire(import.meta.url);
 // https://vitejs.dev/config/
 export default defineConfig({
+  build: {
+    sourcemap: true,
+  },
   server: {
     proxy: {
       "/api": {
@@ -15,7 +18,12 @@ export default defineConfig({
     },
   },
   plugins: [
-    react(),
+    react({
+      jsxImportSource: "@emotion/react",
+      babel: {
+        plugins: ["@emotion/babel-plugin"],
+      },
+    }),
     ckeditor5({ theme: require.resolve("@ckeditor/ckeditor5-theme-lark") }),
   ],
   resolve: {
