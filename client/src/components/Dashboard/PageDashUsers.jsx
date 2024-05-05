@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Badge } from "@/components/ui/badge";
+import { Badge } from "@/components/Ui/badge";
 import {
   Table,
   TableHeader,
@@ -8,15 +8,15 @@ import {
   TableBody,
   TableCell,
   TableFooter,
-} from "@/components/ui/table";
+} from "@/components/Ui/table";
 import { useSelector } from "react-redux";
 import { useEffect, useState } from "react";
 import { toast } from "sonner";
 import { FaCheck, FaTimes } from "react-icons/fa";
 import dateFormat from "dateformat";
-import { ScrollArea } from "@/components/ui/scroll-area";
+import { ScrollArea } from "@/components/Ui/scroll-area";
 import DialogUserDelete from "../DialogUserDelete";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/Ui/card";
 
 const PageDashUsers = () => {
   const { currentUser } = useSelector((state) => state.user);

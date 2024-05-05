@@ -5,8 +5,8 @@ import {
   CardHeader,
   CardContent,
   CardFooter,
-} from "@/components/ui/card";
-import { Badge } from "@/components/ui/badge";
+} from "@/components/Ui/card";
+import { Badge } from "@/components/Ui/badge";
 import dateFormat from "dateformat";
 import { Link } from "react-router-dom";
 import PaginationHome from "@/components/PaginationHome";

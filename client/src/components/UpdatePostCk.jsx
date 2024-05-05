@@ -6,7 +6,7 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
+} from "@/components/Ui/card";
 import {
   getDownloadURL,
   getStorage,
@@ -14,12 +14,12 @@ import {
   uploadBytesResumable,
 } from "firebase/storage";
 import { app } from "@/firebase";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+import { Input } from "@/components/Ui/input";
+import { Label } from "@/components/Ui/label";
 import { useNavigate, useParams } from "react-router-dom";
 import { toast } from "sonner";
-import { Button } from "@/components/ui/button";
-import { Progress } from "@/components/ui/progress";
+import { Button } from "@/components/Ui/button";
+import { Progress } from "@/components/Ui/progress";
 // import "react-quill/dist/quill.snow.css";
 import CKEditorTextUpdate from "./CKEditorTextUpdate";
 import { Loader2 } from "lucide-react";

@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import React, { useEffect, useState } from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/Ui/button";
 import { FaPlus } from "react-icons/fa";
 import {
   Table,
@@ -10,11 +10,11 @@ import {
   TableBody,
   TableCell,
   TableFooter,
-} from "@/components/ui/table";
-import { Badge } from "@/components/ui/badge";
+} from "@/components/Ui/table";
+import { Badge } from "@/components/Ui/badge";
 import { useSelector } from "react-redux";
 import dateFormat from "dateformat";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from "@/components/Ui/card";
 import { toast } from "sonner";
 import DialogPostDelete from "@/components/DialogPostDelete";
 

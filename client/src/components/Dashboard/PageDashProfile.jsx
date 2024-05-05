@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
-import { Card, CardContent, CardFooter } from "@/components/ui/card";
-import { Label } from "@/components/ui/label";
-import { Input } from "@/components/ui/input";
-import { Button } from "../ui/button";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/Ui/avatar";
+import { Card, CardContent, CardFooter } from "@/components/Ui/card";
+import { Label } from "@/components/Ui/label";
+import { Input } from "@/components/Ui/input";
+import { Button } from "../Ui/button";
 import { app } from "@/firebase";
 import {
   getDownloadURL,
@@ -11,7 +11,7 @@ import {
   ref,
   uploadBytesResumable,
 } from "firebase/storage";
-import { Progress } from "@/components/ui/progress";
+import { Progress } from "@/components/Ui/progress";
 import {
   updateStart,
   updateSuccess,

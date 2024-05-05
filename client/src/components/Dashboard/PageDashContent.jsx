@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
+import { Card, CardContent, CardHeader, CardTitle } from "@/components/Ui/card";
 import { Users } from "lucide-react";
 import { useSelector } from "react-redux";
 import { MdOutlineLocalPostOffice } from "react-icons/md";

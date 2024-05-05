@@ -9,7 +9,7 @@ import {
   AlertDialogHeader,
   AlertDialogTitle,
   AlertDialogTrigger,
-} from "@/components/ui/alert-dialog";
+} from "@/components/Ui/alert-dialog";
 
 const DialogPostDelete = ({ children, handleDeletePost }) => {
   return (

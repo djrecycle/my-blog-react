@@ -6,7 +6,7 @@ import { store, persistor } from "./redux/store.js";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { PersistGate } from "redux-persist/integration/react";
 import { Provider } from "react-redux";
-import { Toaster } from "@/components/ui/sonner.jsx";
+import { Toaster } from "@/components/Ui/sonner.jsx";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <PersistGate persistor={persistor}>

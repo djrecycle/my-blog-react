@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Card, CardContent, CardFooter, CardHeader } from "./ui/card";
+import { Card, CardContent, CardFooter, CardHeader } from "./Ui/card";
 import { useSelector } from "react-redux";
 import { AiFillLike } from "react-icons/ai";
 import moment from "moment";

@@ -1,4 +1,4 @@
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/Ui/button";
 import {
   Card,
   CardContent,
@@ -6,9 +6,9 @@ import {
   CardFooter,
   CardHeader,
   CardTitle,
-} from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Label } from "@/components/ui/label";
+} from "@/components/Ui/card";
+import { Input } from "@/components/Ui/input";
+import { Label } from "@/components/Ui/label";
 // import { Progress } from "./ui/progress";
 import OAuth from "./OAuth";
 import { ReloadIcon } from "@radix-ui/react-icons";

@@ -3,11 +3,11 @@ import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
 import { toast } from "sonner";
 import { CornerDownLeft, Mic, Paperclip } from "lucide-react";
-import { Button } from "@/components/ui/button";
-import { Label } from "@/components/ui/label";
-import { Textarea } from "@/components/ui/textarea";
+import { Button } from "@/components/Ui/button";
+import { Label } from "@/components/Ui/label";
+import { Textarea } from "@/components/Ui/textarea";
 import Comment from "@/components/Comment";
-import { ScrollArea } from "./ui/scroll-area";
+import { ScrollArea } from "./Ui/scroll-area";
 
 export default function CommentSection({ postId }) {
   const { currentUser } = useSelector((state) => state.user);

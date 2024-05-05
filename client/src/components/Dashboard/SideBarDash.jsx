@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Package2 } from "lucide-react";
 import { useLocation } from "react-router-dom";
-import { Card } from "@/components/ui/card";
+import { Card } from "@/components/Ui/card";
 import { RxDashboard } from "react-icons/rx";
 import { ImProfile } from "react-icons/im";
 import { MdOutlineLocalPostOffice } from "react-icons/md";

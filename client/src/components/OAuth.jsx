@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/Ui/button";
 import { FaGoogle } from "react-icons/fa";
 import { useDispatch } from "react-redux";
 import { GoogleAuthProvider, signInWithPopup, getAuth } from "firebase/auth";

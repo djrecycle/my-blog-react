@@ -6,17 +6,17 @@ import {
   DropdownMenuItem,
   DropdownMenuContent,
   DropdownMenuSeparator,
-} from "@/components/ui/dropdown-menu";
-import { Input } from "@/components/ui/input";
+} from "@/components/Ui/dropdown-menu";
+import { Input } from "@/components/Ui/input";
 import { Menu, Package2, Search } from "lucide-react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/Ui/button";
 import { useSelector, useDispatch } from "react-redux";
 import { ModeToggle } from "@/components/ModeToggle";
 import { signoutSuccess } from "../../redux/user/userSlice";
 import { Link } from "react-router-dom";
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
-import { Card } from "@/components/ui/card";
-import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/Ui/sheet";
+import { Card } from "@/components/Ui/card";
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/Ui/avatar";
 import { RxDashboard } from "react-icons/rx";
 import { ImProfile } from "react-icons/im";
 import { MdOutlineLocalPostOffice } from "react-icons/md";

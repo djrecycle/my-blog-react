@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/Ui/button";
 import { Link } from "react-router-dom";
 import { ModeToggle } from "@/components/ModeToggle";
 import { signoutSuccess } from "../../redux/user/userSlice";
