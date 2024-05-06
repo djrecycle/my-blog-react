@@ -8,13 +8,14 @@ const require = createRequire(import.meta.url);
 export default defineConfig({
   build: {
     sourcemap: true,
+    outDir: "dist",
   },
   server: {
     proxy: {
       "/api": {
-        // target: "http://localhost:3001",
-        target: "https://my-blog-react-yeio.vercel.app/",
-        secure: true,
+        target: "http://localhost:3001",
+        // target: "https://my-blog-react-yeio.vercel.app/",
+        secure: false,
       },
     },
   },
