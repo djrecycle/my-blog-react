@@ -1,4 +1,4 @@
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/smpmuhse/public_html/my-blog-react
+    - export DEPLOYPATH=/home/smpmuhse/blog.smpmuh1seyegan.sch.id
     - /bin/cp -R $SOURCE/. $DEPLOYPATH
