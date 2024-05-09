@@ -27,9 +27,9 @@ const DialogUserDelete = ({ children, handleDeleteUser }) => {
                 </AlertDialogHeader>
                 <AlertDialogFooter>
                     <AlertDialogCancel> No, cancel</AlertDialogCancel>
-                    <AlertDialogAction onClick={handleDeleteUser}>
-                        Yes, I'm sure
-                    </AlertDialogAction>
+                    <AlertDialogAction
+                        onClick={handleDeleteUser}
+                    ></AlertDialogAction>
                 </AlertDialogFooter>
             </AlertDialogContent>
         </AlertDialog>
