@@ -1,4 +1,0 @@
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/smpmuhse/blog.smpmuh1seyegan.sch.id
-    - /bin/cp -R $SOURCE/. $DEPLOYPATH
